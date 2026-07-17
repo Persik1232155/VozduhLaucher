@@ -18,4 +18,3 @@ Windows 10/11 x64. Java находится автоматически, при о
 go build -ldflags "-s -w -H=windowsgui" -o VozduhLaucher.exe .
 makensis installer/installer.nsi
 ```
-Ничего выкладывать на GitHub не нужно — лаунчер работает с публичными API (Mojang, Fabric, Forge, NeoForge, Quilt, LiteLoader, Modrinth, Adoptium) напрямую.
